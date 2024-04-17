@@ -1,0 +1,79 @@
+body {
+    font-family: monospace;
+    background-color: skyblue;
+}
+
+#playArea {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    width: 1250px;
+    height: 520px;
+    background-size: cover;
+    position: relative;
+}
+
+#launcher,
+#target,
+#shooter {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#launcher {
+    top: 470px;
+}
+
+#shooter {
+    top: 440px;
+}
+
+#target,
+#launcher,
+#h1,
+#hit,
+#points,
+#pointB,
+#targetsB {
+    pointer-events: none;
+}
+
+#hit,
+#points,
+#pointB,
+#buttonsB,
+#targetsB {
+    display: inline-block;
+}
+
+#hit {
+    margin-left: 180px;
+}
+
+button {
+    margin-left: 180px;
+    color: crimson;
+    background-color: pink;
+    border: 10px ridge orange;
+    border-radius: 100px;
+    font-family: monospace;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.rocket {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#h1,
+#points,
+#hit {
+    background-color: green;
+    border: 10px ridge blue;
+}
+
+#h1 {
+    display: inline-block;
+}
